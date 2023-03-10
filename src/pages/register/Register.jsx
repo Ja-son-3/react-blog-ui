@@ -12,7 +12,9 @@ export default function Register() {
             <label>Password</label>
             <input type="password" className="registerInput" placeholder="Enter your password..." />
             <button className="registerButton">Register</button>
-            <button className="registerLoginButton">Login</button>
+            <button className="registerLoginButton">
+              <a className="link" href={`/login`}>Login</a>
+            </button>
         </form>
     </div>
   )
